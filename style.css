@@ -14,18 +14,11 @@
   html,body{height:100%}
   
   body{
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-    background:
-      radial-gradient(circle at 10% 0%, #3a244f 0, transparent 55%),
-      radial-gradient(circle at 90% 100%, #2d1f46 0, transparent 55%),
-      linear-gradient(180deg,var(--bg1),var(--bg2));
-    color:#f7efff;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:14px;
-    text-align:center;
+    background-image: url('Ekran görüntüsü 2025-11-24 235741.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
   }
   
   h1{
